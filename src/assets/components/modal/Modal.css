@@ -1,0 +1,139 @@
+
+:root {
+    --orange : #f85e26;
+    --black : #000000;
+    --white : #ffffff;
+    --roboto : 'Roboto', sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.noStyle {
+    text-decoration: none;
+    list-style: none;
+    color: var(--black);
+}
+
+/*************LOGO CONNEXION*************/
+
+.logoLogin {
+    width: 20px;
+    padding-top: 28px;
+    cursor: pointer;
+}
+
+.buttonLogin {
+    border: none;
+    background-color: #f85e26;
+    margin-left: 50px;
+}
+
+/*************CLOSE MODAL*************/
+
+.closeModal {
+    position: fixed;
+    inset: 0;
+    background-color: #5a5a5a;
+    opacity: 0.8;
+}
+
+/*************IN THE MODAL*************/
+
+.modalLogin {
+    position: fixed;
+    left: 780px;
+    top: 240px;
+    z-index: 10;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: solid 3px var(--orange);
+}
+
+.containerModal {
+    display: wrap;
+    font-family: var(--roboto);
+    padding: 10px 30px;
+    justify-content: center;
+}
+
+.titleLogin {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.titleConnect {
+    padding-bottom: 5px;
+}
+
+#name, #mail {
+    margin-top: 15px;
+    padding: 10px;
+    border: 0px;
+    border: solid 1px ;
+    background-color: #eeeeea;
+}
+
+.users, .password {
+    display: flex;
+    flex-direction: column;
+}
+
+.formLogin {
+    padding-top: 20px;
+}
+
+
+.nameModal {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.saveMDP {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.checkBox {
+    margin-left: 40px;
+}
+
+.connectionButton {
+    padding: 10px 100px;
+    background-color: var(--orange);
+    border: 0px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.forgotPassword {
+    margin-left: 15px;
+}
+
+.notMember {
+    justify-content: space-around;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.notMemberText {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.notMemberButton {
+    border: none;
+    background-color: var(--orange);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.liForm {
+    padding-bottom: 20px;
+}
