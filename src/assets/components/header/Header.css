@@ -32,7 +32,7 @@
     height: 135px;
     position: absolute;
     cursor: pointer;
-    left: 907.5px; top: 5px;
+    left: 907.5px; top: 10px;
     filter: drop-shadow(0px 20px 50px var(--black));
 }
 
@@ -49,7 +49,7 @@
 }
 
 .leftNav {
-    margin-left: 280px;
+    margin-left: 235px;
 }
 
 .leftLi {
@@ -98,12 +98,4 @@
     display: block;
     background-color: #e25e21;
     color: var(--white);
-}
-
-.club {
-    width: 130px;
-}
-
-.sections {
-    width: 164px;
 }

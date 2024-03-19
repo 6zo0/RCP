@@ -10,7 +10,7 @@ export default function Header() {
                 <nav className="navRcp d-flex">
                     <ul className="leftNav d-flex">
                         <li className="leftLi noStyle d-flex menu clubMenu li">
-                            <p className='title-menu'>LE CLUB</p>
+                            <p className='title-menu'>NÔTRE CLUB</p>
                             <img src={TriangleMenu} alt="" className="triangle"/>
                             <ul className="underMenu club noStyle">
                                 <li className="underLi li">

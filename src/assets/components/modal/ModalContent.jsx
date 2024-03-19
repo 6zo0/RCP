@@ -1,4 +1,5 @@
 import './Modal.css'
+import PropTypes from 'prop-types';
 
 export default function ModalContent({closeModal}) {
   return (
@@ -50,3 +51,8 @@ export default function ModalContent({closeModal}) {
     </div>
   )
 }
+
+ModalContent.propTypes = {
+    closeModal: PropTypes.func.isRequired
+};
+
